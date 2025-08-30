@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 const posts = [
   {
     id: 1,
@@ -85,12 +87,12 @@ export default function BlogPage() {
               <span className="text-sm text-gray-500">{post.date}</span>
               <h3 className="text-xl font-semibold mb-2 mt-2">{post.title}</h3>
               <p className="text-gray-600 mb-4">{post.desc}</p>
-              <a
-                href="#"
+              <Link
+                href={`/blogs/1`}
                 className="text-primary font-semibold hover:underline"
               >
                 Read More →
-              </a>
+              </Link>
             </div>
           </div>
         ))}
