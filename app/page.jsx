@@ -9,11 +9,12 @@ import Footer from "../components/Footer";
 import AboutUs from "../components/AboutUs";
 import WhyChooseUs from "../components/WhyChooseUs";
 import HomeSlider from "../components/HomeSlider";
+import HeroSlider from "../components/HeroSlider";
 
 export default function Page() {
   return (
     <main>
-     
+     {/* <HeroSlider /> */}
       <Hero />
       {/* <HomeSlider /> */}
       <AboutUs />
