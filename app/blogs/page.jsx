@@ -60,9 +60,15 @@ const posts = [
 export default function BlogPage() {
   return (
     <section className="pt-20 md:pt-28 pb-12 md:pb-20 container">
-      <h1 className="text-4xl font-bold mb-12 text-center">
-        Our <span className="text-primary">Blogs</span>
-      </h1>
+      {/* Heading */}
+      <div className="text-center max-w-2xl mx-auto mb-12">
+        <h1 className="text-4xl md:text-5xl font-bold mb-4">
+          Latest <span className="text-primary">Insights</span>
+        </h1>
+        <p className="text-gray-600 md:text-lg">
+          Explore tips, techniques, and guides to deepen your yoga journey and lifestyle.
+        </p>
+      </div>
 
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-3 xl:grid-cols-4 gap-3 md:gap-6">
         {posts.map((post) => (

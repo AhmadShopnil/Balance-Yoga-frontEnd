@@ -4,7 +4,7 @@ export default function AboutPage() {
   return (
     <div>
       {/* Hero */}
-      <section className="relative h-[50vh] flex items-center justify-center bg-gradient-to-r from-primary/90 to-purple-700 text-white text-center">
+      <section className="pt-14  relative h-[50vh] flex items-center justify-center bg-gradient-to-r from-primary/90 to-purple-700 text-white text-center">
         <div className="absolute inset-0">
           <Image
             src="/images/about.jpg"

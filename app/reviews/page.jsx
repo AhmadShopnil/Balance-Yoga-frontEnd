@@ -33,10 +33,10 @@ export default function VideoReviewsPage() {
   return (
     <section className="pt-28 pb-20 bg-gradient-to-b from-white to-pink-50 min-h-screen">
       <div className="container text-center mb-12">
-        <h1 className="text-4xl md:text-6xl font-extrabold mb-4">
+        <h1 className="text-3xl sm:text-4xl md:text-5xl font-extrabold mb-4">
           Student Video Reviews
         </h1>
-        <p className="text-lg md:text-xl text-gray-600 max-w-2xl mx-auto">
+        <p className="text-md md:text-lg text-gray-600 max-w-2xl mx-auto">
           Hear directly from our Balance Yoga community. Real stories,
           real transformations.
         </p>
